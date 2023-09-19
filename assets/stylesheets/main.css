@@ -1,6 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
+
+
+
+#nav1 {
+    /*border: 1px solid red;*/
+    color: white;
+    background: black;
+
+
+}
+#nav1 ul{
+    display: flex;
+    justify-content: flex-end;
+   
+    
+    
+}
+
+
+
+#nav1 li{
+/*border: 1px solid green;*/
+ text-decoration: none;
+ list-style-type: none;
+margin-left: 20px;
+}
+
+#nav2 {
+   /* border: 1px solid orange;*/
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav2 ul { 
+    display: flex;
+    
+    
+
+    
+
+}
+
+
+
+#nav2 li {
+  /*  border: 1px solid blue;*/
+    text-decoration: none;
+ list-style-type: none;
+ margin-left: 15px;
+}
+
+
+#background-header img {
+    width: 100%;
+}
+
+
+
+
+
+/* end header---- start main*/
+
 main {
     /* outline: 4px solid red; */
     width: 70vw;
